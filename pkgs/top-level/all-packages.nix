@@ -3231,6 +3231,8 @@ with pkgs;
 
   glide = callPackage ../development/tools/glide { };
 
+  glide-media-player = callPackage ../applications/video/glide-media-player { };
+
   globalarrays = callPackage ../development/libraries/globalarrays { };
 
   glock = callPackage ../development/tools/glock { };
