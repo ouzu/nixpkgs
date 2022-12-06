@@ -70,6 +70,7 @@ EOF
 
 trap 'fail' 0
 
+@preGreetCommands@
 
 # Print a greeting.
 info
